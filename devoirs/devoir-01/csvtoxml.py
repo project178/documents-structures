@@ -22,4 +22,4 @@ with open("sanisettesparis.csv", encoding="utf8")as inp:
         equipement = et.SubElement(wc, "equipement")
         equipement.text = item["URL_FICHE_EQUIPEMENT"]
 with open("toilettes-paris.xml", "w", encoding="utf8") as outp:
-    outp.write(et.tostring(wcs, pretty_print=True, xml_declaration=True, encoding='UTF-8').decode("utf8"))
+    outp.write(et.tostring(wcs, pretty_print=True, xml_declaration=True, doctype='<!DOCTYPE toilettes SYSTEM "wc.dtd">', encoding='UTF-8').decode("utf8"))
