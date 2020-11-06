@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="factbook-minimal.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<mondial>
+    <continent id="e" name="Eurasia"/>
+    <country id="fr" name="France" gdp_total="2418997" gdp_agri="73286">
+        <name>France</name>
+        <city longitude="2.3488" latitude="48.8534">
+            <name>Paris</name>
+            <population xmlns="inalco:documents-structures:ns">2148000</population>
+        </city>
+    </country>
+    <country id="ru" name="Russia" gdp_total="1400852" gdp_agri="65840">
+        <name>Russie</name>
+        <city longitude="82.9221" latitude="54.9745">
+            <name>Novossibirsk</name>
+            <population xmlns="inalco:documents-structures:ns">1584138</population>
+        </city>
+    </country>
+</mondial>
