@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ENTITY % r "#REQUIRED">
+<!ENTITY p "88 g">
+<!ENTITY h "0,61 cm">
+<!ENTITY la "5,86 cm">
+<!ENTITY lo "12,34 cm">
+<!ENTITY t "40 h">
+<!ENTITY u "unknown">
+
+<!ELEMENT baladeurs (baladeur+)>
+<!ELEMENT baladeur (nom, autonomie, poids, stockage, taille)>
+
+<!ATTLIST baladeur id CDATA %r;>
+<!ATTLIST baladeur type CDATA %r;>
+
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT autonomie (#PCDATA)>
+<!ELEMENT poids (#PCDATA)>
+<!ELEMENT stockage (#PCDATA)>
+
+<!ELEMENT taille (hauteur, largeur, longueur)>
+<!ELEMENT hauteur (#PCDATA)>
+<!ELEMENT largeur (#PCDATA)>
+<!ELEMENT longueur (#PCDATA)>

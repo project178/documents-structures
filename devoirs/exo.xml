@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE baladeurs SYSTEM "exo.dtd">
+
+<baladeurs>
+    <baladeur id="1" type="mp3, mp4">
+        <nom>Apple iPod Touch 32 Go Bleu</nom>
+        <autonomie>&t;</autonomie>
+        <poids>&p;</poids>
+        <stockage>32 Go</stockage>
+        <taille>
+            <hauteur>&h;</hauteur>
+            <largeur>&la;</largeur>
+            <longueur>&lo;</longueur>
+        </taille>
+    </baladeur>
+    <baladeur id="2" type="mp3, mp4">
+        <nom>Apple iPod Touch 64 Go Silver - Argent</nom>
+        <autonomie>&t;</autonomie>
+        <poids>&p;</poids>
+        <stockage>64 Go</stockage>
+        <taille>
+            <hauteur>&h;</hauteur>
+            <largeur>&la;</largeur>
+            <longueur>&lo;</longueur>
+        </taille>
+    </baladeur>
+    <baladeur id="3" type="mp3, mp4">
+        <nom>Apple iPod Touch 128 Go Argent</nom>
+        <autonomie>&t;</autonomie>
+        <poids>&p;</poids>
+        <stockage>128 Go</stockage>
+        <taille>
+            <hauteur>&h;</hauteur>
+            <largeur>&la;</largeur>
+            <longueur>&lo;</longueur>
+        </taille>
+    </baladeur>
+    <baladeur id="4" type="mp3">
+        <nom>Lecteur Audio Bluetooth Sony NW-A55L Haute Résolution 16 Go Noir</nom>
+        <autonomie>&u;</autonomie>
+        <poids>99 g</poids>
+        <stockage>16 Go</stockage>
+        <taille>
+            <hauteur>1,08 cm</hauteur>
+            <largeur>5,57 cm</largeur>
+            <longueur>9,73 cm</longueur>
+        </taille>
+    </baladeur>
+    <baladeur id="4" type="mp3">
+        <nom>Fiio M11 Noir - Baladeur Audiophile</nom>
+        <autonomie>&u;</autonomie>
+        <poids>0,15 g</poids>
+        <stockage>&u;</stockage>
+        <taille>
+            <hauteur>&u;</hauteur>
+            <largeur>&u;</largeur>
+            <longueur>&u;</longueur>
+        </taille>
+    </baladeur>
+</baladeurs>
+
