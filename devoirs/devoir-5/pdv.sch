@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
+<sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2" xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
     <sch:pattern>
         <sch:rule context="pdv_liste/pdv/fermeture">
             <sch:assert test="not(text())">Un élément <sch:name/> ne doit pas contenir un text.</sch:assert>
