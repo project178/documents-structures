@@ -1,6 +1,6 @@
 1.  (/juicers/juicer[@type='centrifugal'])
 2.  (/juicers/juicer[@type='centrifugal'])[last()]
-3.  (/juicers/juicer[@type='centrifugal'])[not(position()=last())]
+3.  remove((/juicers/juicer[@type='centrifugal']), last())
 4.  (/juicers/juicer/name/string())
 5.  index-of(/juicers/juicer/name/text(), "Juiceman Jr.")
 6.  (/juicers/juicer/name)
